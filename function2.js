@@ -27,7 +27,7 @@ var updateClient = function (client, id, connection) {
             } else {
                 connection.close();
                 callback(null, {
-                    statusCode: 200,
+                    statusCode: 201,
                     headers: {
                         "Access-Control-Allow-Origin": "*"
                     },
